@@ -1,4 +1,4 @@
-﻿![Alt text](images/banana.gif?raw=true "Gif")
+﻿![GitHub Logo](images/banana.gif)
 
 # Bananų Valgytojai:
 

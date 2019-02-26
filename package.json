@@ -1,0 +1,24 @@
+{
+  "name": "ernestas_package",
+  "version": "1.0.0",
+  "description": "!(images/banana.gif?raw=true \"Gif\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katamaranas/Front_end_2_lygis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katamaranas/Front_end_2_lygis/issues"
+  },
+  "homepage": "https://github.com/Katamaranas/Front_end_2_lygis#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-assemble": "^0.6.3",
+    "grunt-contrib-compass": "^1.1.1"
+  }
+}
