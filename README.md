@@ -1,6 +1,8 @@
-﻿# Kaip valgyt bananus:
-
-## Ką reikėtų žinoti prieš valgant bananus:
+﻿# Bananu valgymo guide:
+![GitHub Logo](/images/banana.gif)
+## Step 1.
 #### Geriau nekandžiok
+## Step 2.
 #### Kai valgai, nežiūrėk Dainiui į akis
+## Step 3.
 #### Kai valgai, nežiūrėk niekam į akis
