@@ -1,11 +1,9 @@
-﻿![GitHub Logo](images/banana.gif)
-
-# Bananų Valgytojai:
+﻿# Bananų Valgytojai:
 
 #### Ernestas
-![Alt text](images/ernestas.png?raw=true "Ernestukas Bananiukas")
+![GitHub Logo](/images/ernestas.png)
 
-## Ką reikėtų žinoti prieš valgant:
+## Ką reikėtų žinoti prieš valgant bananus:
 #### Geriau nekandžiok
 #### Kai valgai, nežiūrėk Dainiui į akis
 #### Kai valgai, nežiūrėk niekam į akis
