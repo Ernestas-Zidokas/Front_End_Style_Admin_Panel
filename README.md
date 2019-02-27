@@ -1,7 +1,4 @@
-﻿# Bananų Valgytojai:
-
-#### Ernestas
-![GitHub Logo](/images/ernestas.png)
+﻿# Kaip valgyt bananus:
 
 ## Ką reikėtų žinoti prieš valgant bananus:
 #### Geriau nekandžiok
