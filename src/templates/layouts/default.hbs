@@ -2,9 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <title>Pirmas project</title>
   </head>
   <body>
+    {{>navbar}}
+    {{>sidenav}}
     {{body}}
+    {{#is basename 'index'}}
+    {{>footer}}
+    {{/is}}
+		<div class="svg-sprite-container">{{> 'sprite.symbol' }}</div>
   </body>
 </html>

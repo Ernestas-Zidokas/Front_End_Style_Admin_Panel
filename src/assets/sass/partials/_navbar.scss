@@ -1,0 +1,49 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  .nav-bar {
+    position: relative;
+    height: $nav-height;
+    background: $default-bg;
+    &--left {
+      float: left;
+      text-align: center;
+      width: $nav-left-width;
+    }
+    &--right {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+          justify-content: space-between;
+    }
+    &__lists {
+      line-height: $nav-height;
+      &--left {
+        display: flex;
+      }
+      &--right {
+        float: right;
+        display: flex;
+      }
+      &__link {
+        padding: 0 20px;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+input, button {
+  height: 20px;
+}
+
+.svg-icon {
+  width: 20px;
+  height: 20px;
+  fill: purple;
+}
