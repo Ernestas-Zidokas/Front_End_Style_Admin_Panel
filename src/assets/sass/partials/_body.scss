@@ -1,0 +1,19 @@
+.gaidys {
+  margin-top: calc(#{$nav-height} + 10px);
+  margin-left: calc(#{$nav-left-width} + 10px);
+  margin-right: 10px;
+
+}
+.welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.top-containers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

@@ -1,3 +1,44 @@
-.sidenav {
-  margin-top: $nav-height;
+.side-menu {
+  position: fixed;
+  top: $nav-height;
+  height: 100%;
+  background: white;
+  width: $nav-left-width;
+  -webkit-box-shadow: $box-shadow;
+  box-shadow: $box-shadow;
+  overflow: scroll;
+  padding: 20px 0 80px;
+  &__lists {
+    &__list {
+      padding: 12px;
+      font-size: 12px;
+      position: relative;
+      a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-decoration: none;
+        cursor: pointer;
+        color: inherit;
+        svg {
+          fill: purple;
+          margin-right: 10px;
+        }
+      }
+      &:after {
+        @include arrow();
+      }
+    }
+    &__list:hover {
+      background-color: cyan;
+      border-left: 2px solid blue;
+    }
+    &__title {
+      padding: 12px 20px;
+      font-size: 12px;
+    }
+  }
 }
