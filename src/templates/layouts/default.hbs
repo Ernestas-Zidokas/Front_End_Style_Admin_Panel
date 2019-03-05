@@ -8,7 +8,11 @@
   <body>
     {{>navbar}}
     {{>sidenav}}
-    {{body}}
+
+    <div class="section-container">
+      {{body}}
+    </div>
+
     {{#is basename 'index'}}
     {{>footer}}
     {{/is}}

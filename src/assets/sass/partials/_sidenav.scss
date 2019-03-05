@@ -31,10 +31,12 @@
       &:after {
         @include arrow();
       }
-    }
-    &__list:hover {
-      background-color: cyan;
-      border-left: 2px solid blue;
+      &.active {
+          a {
+              background-color: $bg-color;
+              border-left: 2px solid blue;
+          }
+      }
     }
     &__title {
       padding: 12px 20px;
