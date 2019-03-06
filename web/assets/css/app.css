@@ -9639,8 +9639,23 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 3px;
   background: white;
   padding: 15px;
-  text-align: right;
   margin-bottom: 15px;
+}
+.boxes--right {
+  text-align: right;
+}
+.boxes__image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin: 10px;
+}
+.boxes--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .v-align {
@@ -9671,7 +9686,7 @@ p {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
@@ -9758,11 +9773,10 @@ input, button {
   border-width: 0 1px 1px 0;
   display: inline-block;
   top: 45%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
   padding: 3px;
   -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+  transform: rotate(-45deg), translateY(-50%);
+  -webkit-transform: translateY(-50%);
 }
 .side-menu__lists__list.active a {
   background-color: #ebebeb;
@@ -9845,11 +9859,13 @@ input, button {
 }
 
 .circle {
+  position: relative;
   height: 80px;
   width: 80px;
   border-radius: 50%;
+}
+.circle--border {
   border: 5px solid;
-  position: relative;
 }
 .circle--success {
   background: rgba(102, 187, 106, 0.75);

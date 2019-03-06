@@ -1,9 +1,11 @@
 .circle {
+    position: relative;
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    border: 5px solid;
-    position: relative;
+    &--border {
+        border: 5px solid;
+    }
     &--success {
         background: $color-success;
         border-color: $color-success-ol;

@@ -3,7 +3,7 @@
   height: 24px;
 }
 
-@mixin arrow($color: #000) {
+@mixin arrow($color: #000, $rotate: -45deg) {
   content: " ";
   position: absolute;
   right: 20px;
@@ -11,9 +11,8 @@
   border-width: 0 1px 1px 0;
   display: inline-block;
   top: 45%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
   padding: 3px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -webkit-transform: rotate($rotate);
+          transform: rotate($rotate), translateY(-50%);
+          -webkit-transform: translateY(-50%)
 }
