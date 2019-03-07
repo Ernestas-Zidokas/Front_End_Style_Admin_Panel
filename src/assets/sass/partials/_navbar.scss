@@ -8,6 +8,9 @@
     position: relative;
     height: $nav-height;
     background: $default-bg;
+    svg {
+        fill: $mid-gray;
+    }
     &--left {
       float: left;
       text-align: center;
@@ -24,10 +27,14 @@
     &__lists {
       line-height: $nav-height;
       &--left {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
       }
       &--right {
         float: right;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
       }
       &__link {

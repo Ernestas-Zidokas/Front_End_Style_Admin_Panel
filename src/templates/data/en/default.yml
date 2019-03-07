@@ -1,0 +1,30 @@
+lang: en
+sidenav:
+    main: Main
+    dashboard: Dashboard
+    ui_kit: UI Kit
+    typography: Typography
+    components: Components
+    icons: Icons
+    forms: Forms
+    more: More
+    tables: Tables
+    charts: Charts
+    maps: Maps
+    mail: Mail
+    extras: Extras
+    pages: Pages
+    level: Multi level
+dashboard:
+    yearly: Yearly Sales Report
+    revenue: Total revenue
+    latest_projects: Lastest Projects
+    awesome_text: Your awesome text goes here
+    admin: Admin
+    user: User
+    master: Master
+    project_name: Project Name
+    start_date: Start Date
+    due_date: Due Date
+    status: Status
+    assing: Assing

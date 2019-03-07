@@ -1,0 +1,30 @@
+lang: lt
+sidenav:
+    main: Pagrindinis
+    dashboard: Valdymo skydelis
+    ui_kit: Var. sąs. rinkinys
+    typography: Tipografija
+    components: Komponentai
+    icons: Ikonos
+    forms: Formos
+    more: Daugiau
+    tables: Lentelės
+    charts: Grafikai
+    maps: Žemėlapiai
+    mail: Pašas
+    extras: Papildomai
+    pages: Puslapiai
+    level: Daugialygis
+dashboard:
+    yearly: Metinė pardavimų ataskaita
+    revenue: Bendros pajamos
+    latest_projects: Paskutiniai projektai
+    awesome_text: Tavo afigienas tekstas rašomas čia
+    admin: Aministratorius
+    user: Vartotojas
+    master: Masteris
+    project_name: Projekto vardas
+    start_date: Pradžios data
+    due_date: Vykdymo data
+    status: Statusas
+    assing: Priskyrimas

@@ -13,6 +13,12 @@
       padding: 12px;
       font-size: 12px;
       position: relative;
+      border-left: 3px solid white;
+      &:hover {
+          a {
+              color: $default-bg;
+          }
+      }
       a {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -22,19 +28,20 @@
                 align-items: center;
         text-decoration: none;
         cursor: pointer;
-        color: inherit;
+        color: $text-color;
         svg {
-          fill: purple;
+          fill: $mid-gray;
           margin-right: 10px;
         }
       }
       &:after {
-        @include arrow();
+        @include arrow($rotate: -45deg);
       }
       &.active {
-          a {
-              background-color: $bg-color;
-              border-left: 2px solid blue;
+          border-color: $default-bg;
+          background-color: $light-gray;
+          &:hover {
+              text-decoration: none;
           }
       }
     }

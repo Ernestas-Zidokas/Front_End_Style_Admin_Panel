@@ -13,6 +13,5 @@
   top: 45%;
   padding: 3px;
   -webkit-transform: rotate($rotate);
-          transform: rotate($rotate), translateY(-50%);
-          -webkit-transform: translateY(-50%)
+          transform: rotate($rotate);
 }
