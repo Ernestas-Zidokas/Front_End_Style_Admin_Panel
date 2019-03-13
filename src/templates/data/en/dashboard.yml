@@ -1,5 +1,17 @@
+lang: en
 stats:
     visits: Today's visits
     revenue: Total Revenue
     sales: Today's Sales
     conversion: Conversion
+    yearly: Yearly Sales Report
+    latest_projects: Lastest Projects
+    awesome_text: Your awesome text goes here
+    admin: Admin
+    user: User
+    master: Master
+    project_name: Project Name
+    start_date: Start Date
+    due_date: Due Date
+    status: Status
+    assing: Assing

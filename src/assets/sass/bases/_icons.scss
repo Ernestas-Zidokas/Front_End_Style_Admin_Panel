@@ -15,3 +15,44 @@
   -webkit-transform: rotate($rotate);
           transform: rotate($rotate);
 }
+
+@mixin circle($height: 80px, $width: 80px, $svg-height: 40px, $svg-width: 40px) {
+    position: relative;
+    height: $height;
+    width: $width;
+    border-radius: 50%;
+    .svg-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: 0;
+        bottom: 0;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        height: $svg-height;
+        width: $svg-width;
+        fill: $bg-color;
+    }
+}
+.circle {
+    &--border {
+        border: 5px solid;
+    }
+    &--success {
+        background: $color-success;
+        border-color: $color-success-ol;
+    }
+    &--danger {
+        background: $color-danger;
+        border-color: $color-danger-ol;
+    }
+    &--primary {
+        background: $color-primary;
+        border-color: $color-primary-ol;
+    }
+    &--secondary {
+        background: $color-secondary;
+        border-color: $color-secondary-ol;
+    }
+
+}

@@ -1,115 +1,121 @@
-<div class="side-menu">
-  <ul class="side-menu__lists">
-    <li class="side-menu__lists__title">{{default.sidenav.main}}</li>
-    <li class="side-menu__lists__list{{#is custom_basename 'dashboard'}} active{{/is}}">
-      <a href="#">
-        <svg class="svg-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#home"></use>
-        </svg>
-        {{default.sidenav.dashboard}}
-      </a>
-    </li>
-    <li class="side-menu__lists__list{{#is custom_basename 'ui_kit'}} active{{/is}}">
-      <a href="#">
-        <svg class="svg-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#paint"></use>
-        </svg>
-        {{default.sidenav.ui_kit}}
-      </a>
-    </li>
-    <li class="side-menu__lists__list{{#is custom_basename 'typography'}} active{{/is}}">
-      <a href="#">
-        <svg class="svg-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#scatter"></use>
-        </svg>
-        {{default.sidenav.typography}}
-      </a>
-    </li>
-    <li class="side-menu__lists__list{{#is custom_basename 'components'}} active{{/is}}">
-      <a href="#">
-        <svg class="svg-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#list"></use>
-        </svg>
-        {{default.sidenav.components}}
-      </a>
-    </li>
-    <li class="side-menu__lists__list{{#is custom_basename 'icons'}} active{{/is}}">
-      <a href="#">
-        <svg class="svg-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#filter"></use>
-        </svg>
-        {{default.sidenav.icons}}
-      </a>
-    </li>
-    <li class="side-menu__lists__list{{#is custom_basename 'forms'}} active{{/is}}">
-      <a href="#">
-        <svg class="svg-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#portrait"></use>
-        </svg>
-        {{default.sidenav.forms}}
-      </a>
-    </li>
-  </ul>
-  <ul class="side-menu__lists">
-    <li class="side-menu__lists__title">More</li>
-    <li class="side-menu__lists__list{{#is custom_basename 'tables'}} active{{/is}}">
-      <a href="#">
-        <svg class="svg-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tables"></use>
-        </svg>
-        {{default.sidenav.tables}}
-      </a>
-    </li>
-    <li class="side-menu__lists__list{{#is custom_basename 'charts'}} active{{/is}}">
-      <a href="#">
-        <svg class="svg-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#charts"></use>
-        </svg>
-        {{default.sidenav.charts}}
-      </a>
-    </li>
-    <li class="side-menu__lists__list{{#is custom_basename 'maps'}} active{{/is}}">
-      <a href="#">
-        <svg class="svg-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#maps"></use>
-        </svg>
-        {{default.sidenav.maps}}
-      </a>
-    </li>
-    <li class="side-menu__lists__list{{#is custom_basename 'mail'}} active{{/is}}">
-      <a href="#">
-        <svg class="svg-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mail"></use>
-        </svg>
-        {{default.sidenav.mail}}
-      </a>
-    </li>
-  </ul>
-  <ul class="side-menu__lists">
-    <li class="side-menu__lists__title">{{default.sidenav.extras}}</li>
-    <li class="side-menu__lists__list{{#is custom_basename 'pages'}} active{{/is}}">
-      <a href="#">
-        <svg class="svg-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pages"></use>
-        </svg>
-        {{default.sidenav.pages}}
-      </a>
-    </li>
-    <li class="side-menu__lists__list{{#is custom_basename 'extras'}} active{{/is}}">
-      <a href="#">
-        <svg class="svg-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#extras"></use>
-        </svg>
-        {{default.sidenav.extras}}
-      </a>
-    </li>
-    <li class="side-menu__lists__list{{#is custom_basename 'level'}} active{{/is}}">
-      <a href="#">
-        <svg class="svg-icon">
-          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#level"></use>
-        </svg>
-        {{default.sidenav.level}}
-      </a>
-    </li>
-  </ul>
+<div id="side-menu" class="side-menu">
+    <ul class="side-menu__lists">
+        <li class="side-menu__lists__title">
+            <span>{{default.sidenav.main}}</span>
+        </li>
+        <li class="side-menu__lists__list{{#is custom_basename 'dashboard'}} active{{/is}}">
+            <a href="#">
+                <svg class="svg-icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#home"></use>
+                </svg>
+                <span>{{default.sidenav.dashboard}}</span>
+            </a>
+        </li>
+        <li class="side-menu__lists__list{{#is custom_basename 'ui_kit'}} active{{/is}}">
+            <a href="#">
+                <svg class="svg-icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#paint"></use>
+                </svg>
+                <span>{{default.sidenav.ui_kit}}</span>
+            </a>
+        </li>
+        <li class="side-menu__lists__list{{#is custom_basename 'typography'}} active{{/is}}">
+            <a href="#">
+                <svg class="svg-icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#scatter"></use>
+                </svg>
+                <span>{{default.sidenav.typography}}</span>
+            </a>
+        </li>
+        <li class="side-menu__lists__list{{#is custom_basename 'components'}} active{{/is}}">
+            <a href="#">
+                <svg class="svg-icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#list"></use>
+                </svg>
+                <span>{{default.sidenav.components}}</span>
+            </a>
+        </li>
+        <li class="side-menu__lists__list{{#is custom_basename 'icons'}} active{{/is}}">
+            <a href="#">
+                <svg class="svg-icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#filter"></use>
+                </svg>
+                <span>{{default.sidenav.icons}}</span>
+            </a>
+        </li>
+        <li class="side-menu__lists__list{{#is custom_basename 'forms'}} active{{/is}}">
+            <a href="#">
+                <svg class="svg-icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#portrait"></use>
+                </svg>
+                <span>{{default.sidenav.forms}}</span>
+            </a>
+        </li>
+    </ul>
+    <ul class="side-menu__lists">
+        <li class="side-menu__lists__title">
+            <span>{{default.sidenav.more}}</span>
+        </li>
+        <li class="side-menu__lists__list{{#is custom_basename 'tables'}} active{{/is}}">
+            <a href="#">
+                <svg class="svg-icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tables"></use>
+                </svg>
+                <span>{{default.sidenav.tables}}</span>
+            </a>
+        </li>
+        <li class="side-menu__lists__list{{#is custom_basename 'charts'}} active{{/is}}">
+            <a href="#">
+                <svg class="svg-icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#charts"></use>
+                </svg>
+                <span>{{default.sidenav.charts}}</span>
+            </a>
+        </li>
+        <li class="side-menu__lists__list{{#is custom_basename 'maps'}} active{{/is}}">
+            <a href="#">
+                <svg class="svg-icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#maps"></use>
+                </svg>
+                <span>{{default.sidenav.maps}}</span>
+            </a>
+        </li>
+        <li class="side-menu__lists__list{{#is custom_basename 'mail'}} active{{/is}}">
+            <a href="#">
+                <svg class="svg-icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mail"></use>
+                </svg>
+                <span>{{default.sidenav.mail}}</span>
+            </a>
+        </li>
+    </ul>
+    <ul class="side-menu__lists">
+        <li class="side-menu__lists__title">
+            <span>{{default.sidenav.extras}}</span>
+        </li>
+        <li class="side-menu__lists__list{{#is custom_basename 'pages'}} active{{/is}}">
+            <a href="#">
+                <svg class="svg-icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pages"></use>
+                </svg>
+                <span>{{default.sidenav.pages}}</span>
+            </a>
+        </li>
+        <li class="side-menu__lists__list{{#is custom_basename 'extras'}} active{{/is}}">
+            <a href="#">
+                <svg class="svg-icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#extras"></use>
+                </svg>
+                <span>{{default.sidenav.extras}}</span>
+            </a>
+        </li>
+        <li class="side-menu__lists__list{{#is custom_basename 'level'}} active{{/is}}">
+            <a href="#">
+                <svg class="svg-icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#level"></use>
+                </svg>
+                <span>{{default.sidenav.level}}</span>
+            </a>
+        </li>
+    </ul>
 </div>
