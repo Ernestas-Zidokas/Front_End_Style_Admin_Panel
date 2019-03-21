@@ -1,10 +1,19 @@
 .section-container {
   margin-top: $nav-height + 20;
   margin-left: $nav-left-width + 15;
-  &--moved {
-    margin-left: 90px;
-  }
 }
+.section-title {
+    &__nav {
+        span {
+            &:not(:last-child) {
+                &:after {
+                    content: ' /'
+                }
+            }
+        }
+    }
+}
+
 .boxes {
     -webkit-box-shadow: $box-shadow;
             box-shadow: $box-shadow;
@@ -51,5 +60,21 @@
     &--master {
         color: $color-master;
         font-weight: 600;
+    }
+}
+
+.sidenav-closed {
+    .topbar {
+        .nav-bar {
+            &--left {
+                width: $sidenav-closed-width;
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+    .section-container {
+        margin-left: $sidenav-closed-width +15;
     }
 }

@@ -1,0 +1,14 @@
+.login {
+    background: #fff;
+
+    &__title {
+
+    }
+    &__form {
+        &__item {
+            position: relative;
+            margin-bottom: 20px;
+            @include default-input();
+        }
+    }
+}

@@ -1,0 +1,8 @@
+@mixin default-button ($button-background: $color-orange, $height: $input-height){
+    background-color: $button-background;
+    border-radius: $border-radius;
+    border-radius: $box-shadow;
+    width: 100%;
+    height: $input-height;
+    color: #fff;
+}

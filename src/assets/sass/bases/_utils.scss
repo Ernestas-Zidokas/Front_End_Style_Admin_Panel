@@ -1,3 +1,6 @@
+.bg-color {
+    background: $bg-color;
+}
 .v-align {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -9,4 +12,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+}
+.perfect-center {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
