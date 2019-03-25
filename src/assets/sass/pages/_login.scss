@@ -2,13 +2,28 @@
     background: #fff;
 
     &__title {
-
+        margin-bottom: 40px;
+        text-align: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+                svg {
+                    max-width: 100%,none;
+                    display: block;
+                    height: 40px;
+                }
     }
     &__form {
         &__item {
             position: relative;
             margin-bottom: 20px;
             @include default-input();
+            &--checkbox {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                margin-top: 20px;
+            }
         }
     }
 }

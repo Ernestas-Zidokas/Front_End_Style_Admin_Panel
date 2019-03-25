@@ -1,8 +1,27 @@
-@mixin default-button ($button-background: $color-orange, $height: $input-height){
+@mixin default-button ($button-background: $default-btn, $height: 50px){
     background-color: $button-background;
-    border-radius: $border-radius;
-    border-radius: $box-shadow;
     width: 100%;
-    height: $input-height;
+    height: $height;
+    line-height: $height;
     color: #fff;
+    border: 0;
+    border-radius: 100px;
+    -webkit-transition: $transition;
+    transition: $transition;
+    text-decoration: none;
+    text-align: center;
+    &:hover {
+        -webkit-filter: brightness(85%);
+                filter: brightness(85%);
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.button {
+    @include default-button();
+    &--full-width {
+        width: 100%;
+    }
 }
