@@ -5,13 +5,13 @@
         margin-bottom: 40px;
         text-align: center;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-                svg {
-                    max-width: 100%,none;
-                    display: block;
-                    height: 40px;
-                }
+        -ms-flex-pack: center;
+        justify-content: center;
+        svg {
+            max-width: 100%,none;
+            display: block;
+            height: 40px;
+        }
     }
     &__form {
         &__item {

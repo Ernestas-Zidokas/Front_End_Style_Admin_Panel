@@ -1,0 +1,58 @@
+.profile-container {
+    .boxes {
+        .circle {
+            background-image: url('../images/ernestas.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            @include circle($height: 100px, $width: 100px);
+            margin: auto;
+        }
+        .top {
+            text-align: center;
+            &__buttons {
+                display: inline-block;
+                margin: auto;
+                &__lists {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    &__list {
+                        a {
+                            height: 34px;
+                            padding: 0 10px;
+                            border-radius: 2px;
+                            text-align: center;
+                            text-decoration: none;
+                            span {
+                                color: #fff;
+                            }
+                        }
+                        &--follow {
+                            a {
+                                background-color: green;
+                                margin-right: 3px;
+                            }
+                        }
+                        &--message {
+                            a {
+                                background-color: pink;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bottom {
+            &__info {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                p:first-child {
+                    font-weight: 700;
+                    margin-right: 3px;
+                }
+            }
+        }
+    }
+
+}
