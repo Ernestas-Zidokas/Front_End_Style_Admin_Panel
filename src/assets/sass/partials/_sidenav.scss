@@ -9,10 +9,19 @@
     overflow: scroll;
     -ms-overflow-style: none;  // IE 10+
     overflow: -moz-scrollbars-none;
-    &::-webkit-scrollbar{
+    &::-webkit-scrollbar {
         display: none;
     }
     padding: 20px 0 80px;
+    z-index: 999;
+    &--right {
+        right: 0;
+        -webkit-transition: $transition;
+        transition: $transition;
+        &--closed {
+            right: -$nav-left-width;
+        }
+    }
     &__lists {
         &__list {
             padding: 12px;

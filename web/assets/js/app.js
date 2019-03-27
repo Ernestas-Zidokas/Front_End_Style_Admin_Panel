@@ -6,4 +6,8 @@ $(function() {
     })
     var basename = $('#side-menu').find('li.active span').text();
     $('#basename').text(basename).attr('href', '/' + basename.toLowerCase() + 'html');
+
+    $('#notifications').on('click', function() {
+        $('#side-menu-right').toggleClass('side-menu--right--closed');
+    })
 })

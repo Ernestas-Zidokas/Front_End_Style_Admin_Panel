@@ -125,16 +125,11 @@
                         </div>
                     </li>
                     <li class="nav-bar__lists__link">
-                        <a href="#" role="button" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a href="#" role="button" id="notifications">
                             <svg class="svg-icon">
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#notification"></use>
                             </svg>
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="notifications">
-                            <a class="dropdown-menu__item" href="#">Action</a>
-                            <a class="dropdown-menu__item" href="#">Another action</a>
-                            <a class="dropdown-menu__item" href="#">Something else here</a>
-                        </div>
                     </li>
                     <li class="nav-bar__lists__link v-align">
                         <a href="#" role="button" id="profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -272,6 +267,25 @@
                 </li>
             </ul>
         </div>
+        <div id="side-menu-right" class="side-menu side-menu--right side-menu--right--closed">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+            </div>
+        </div>
+
         <div class="section-container">
             <div class="section-title">
                 <div class="container-fluid">
@@ -302,7 +316,7 @@
                     <div class="circle">
 
                     </div>
-                    <h3>Ernestas Zidokas</h3>
+                    <h5>Ernestas Zidokas</h5>
                     <p>@frontender</p>
                     <div class="top__buttons">
                         <ul class="top__buttons__lists">
