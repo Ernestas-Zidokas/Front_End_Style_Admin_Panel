@@ -1,18 +1,45 @@
 <div id="side-menu-right" class="side-menu side-menu--right side-menu--right--closed">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+            <a class="nav-link active" id="activity-tab" data-toggle="tab" href="#activity" role="tab" aria-controls="activity" aria-selected="true">Activity</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+            <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">Settings</a>
         </li>
     </ul>
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="activity" role="tabpanel" aria-labelledby="activity-tab">
+            <div class="side-menu__tab-activity">
+                <div class="side-menu__tab-activity__content">
+                    <p>5 minutes ago</p>
+                    <h5><a href="#">John Doe</a> Uploaded a photo</h5>
+                    <h6>DSC8000000.jpg</h6>
+                </div>
+            </div>
+            <div class="side-menu__tab-activity">
+                <div class="side-menu__tab-activity__content">
+                    <p>10 minutes ago</p>
+                    <h5><a href="#">Ernestas Zidokas</a> Uploaded 2 photos</h5>
+                </div>
+            </div>
+            <div class="side-menu__tab-activity">
+                <div class="side-menu__tab-activity__content">
+                    <p>15 minutes ago</p>
+                    <h5><a href="#">Paulius</a> Commented on your post</h5>
+                    <h6>Zdrv, ka tu?</h6>
+                </div>
+            </div>
+            <div class="side-menu__tab-activity">
+                <div class="side-menu__tab-activity__content">
+                    <p>20 minutes ago</p>
+                    <h5><a href="#">Ernestas Zidokas</a> attended a meeting with John Doe</h5>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+            <div class="side-menu_tab-settings">
+
+            </div>
+        </div>
     </div>
 </div>
